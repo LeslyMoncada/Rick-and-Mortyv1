@@ -3,42 +3,16 @@ body{
     font-family: 'Grandstander', cursive;
 }
 
-nav {
-    background-color: rgb(255, 255, 255);
-    color: #12B99F;
+figure {
+    width: 100px;
+    height: 100px;
+    border-radius:100px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    border: 8px #ffa2a2 solid;
+
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.menu li {
-    width: 10%;
-    list-style: none;
-}
-
-.menu a {
-    text-decoration: none;
-    color:#12B99F;
-    font-family: 'Grandstander', cursive;
-}
-
-.menu a:hover {
-    background-color: white;
-    border: 5px white solid;
-    border-radius: 3px;
-    color:#12B99F;
-}
-
-.logo {
-    flex-grow: 3;
-}
-
-.logo img {
-    padding: 1% 2% 1% 5%;
-    width: 10%;
-}
 
 /* contedido*/
 
@@ -145,3 +119,4 @@ footer p {
     border-radius: 30px;
     box-shadow: 3px 5px 5px #BDBDBD;
 }
+
